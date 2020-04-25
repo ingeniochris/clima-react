@@ -20,7 +20,7 @@ useEffect(()=>{
     const consultAPI = async () => {
       if(consult){
         const appId=process.env.REACT_APP_TOKENAPI;
-        const url=`http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
+        const url=`//api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
   
         const res = await(await fetch(url)).json();
         setResult(res)
