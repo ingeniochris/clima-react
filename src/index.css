@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: linear-gradient(360deg,#e1e1e1,#03a9f4 40%  );
+  height: 100vh;
 }
 nav .brand-logo {
   display: block;
@@ -36,7 +38,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 
 .contenedor-form {
   padding: 3rem 0 1px 0;
-  background: linear-gradient(360deg,#03a9f4 70% ,#e1e1e1 )
+  
 }
 .mensaje {
   text-align: center;
